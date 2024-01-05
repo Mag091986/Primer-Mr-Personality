@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+    <title>Mr Personality</title>
+    <style>
+        body {
+            font-family: "Oswald", monospace;            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: hsl(352, 100%, 50%);
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #ffffff;
+            text-align:center;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .derecha {
+            display: flex;
+            justify-content: right;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mr. Personality</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Precios.html">Precios</a></li>
+                <li><a class="active" href="./Audiovisuales.html">Trabajos</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <article>
+        <h2 style="margin: 15px;">Algunos de nuestros trabajos</h2>
+
+
+        <iframe class="centrado" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmrpersonalitycolombia%2Fvideos%2F1162489814217581%2F&show_text=false&width=560&t=0" width="476" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+        <iframe class="centrado" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmrpersonalitycolombia%2Fvideos%2F1113718049418290%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+    </article>
+    
+    <section class="derecha">
+        <div class="gallery">
+            <img src="./assets/img/Galería/a.jpg" alt="Foto1" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/b.jpeg" alt="Foto2" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/c.jpg" alt="Foto3" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/d.jpg" alt="Foto4" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/e.jpg" alt="Foto5" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/f.jpg" alt="Foto6" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/g.jpg" alt="Foto7" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/h.jpg" alt="Foto8" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/i.jpg" alt="Foto9" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/j.jpg" alt="Foto10" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/k.jpg" alt="Foto11" width="300">
+        </div>
+        <div class="gallery">
+            <img src="./assets/img/Galería/l.jpg" alt="Foto12" width="300">
+        </div>
+    </section>
+
+    <footer class="footer">
+        Derechos Reservados &copy; 2024
+    </footer>
+
+</body>
+</html>
